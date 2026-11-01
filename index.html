@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPG Finder - Informasi LPG Non-Subsidi</title>
+    <meta name="description" content="LPG Finder adalah proyek pengembangan website informasi dan pencarian LPG non-subsidi berbasis chatbot WhatsApp.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #263238;
+            line-height: 1.7;
+            background: #f7f9fc;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e66a18;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 22px;
+        }
+
+        .hero {
+            padding: 85px 8%;
+            background: #fff3e9;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            color: #bd5010;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            color: #555;
+        }
+
+        .section {
+            padding: 65px 8%;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 18px;
+            color: #bd5010;
+        }
+
+        .intro {
+            max-width: 800px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+            margin-top: 35px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px #0000000c;
+        }
+
+        .card h3 {
+            color: #d65b16;
+            margin-bottom: 10px;
+        }
+
+        .features {
+            background: #fff;
+        }
+
+        .features ul {
+            max-width: 750px;
+            margin: 25px auto 0;
+            padding-left: 25px;
+        }
+
+        .contact {
+            text-align: center;
+            background: #fff3e9;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            background: #333;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">LPG Finder</div>
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#produk">Produk</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Selamat Datang di LPG Finder</h1>
+    <p>
+        Platform informasi dan pencarian LPG non-subsidi
+        yang dikembangkan untuk membantu masyarakat memperoleh
+        informasi produk dan menemukan lokasi agen LPG terdekat.
+    </p>
+</section>
+
+<section class="section" id="tentang">
+    <h2>Tentang LPG Finder</h2>
+    <div class="intro">
+        <p>
+            LPG Finder merupakan proyek pengembangan website
+            informasi dan pencarian LPG non-subsidi berbasis chatbot.
+            Sistem ini dirancang untuk memberikan informasi produk,
+            membantu pencarian agen LPG, serta mempermudah proses
+            pemesanan melalui integrasi WhatsApp.
+        </p>
+    </div>
+</section>
+
+<section class="section" id="produk">
+    <h2>Informasi Produk LPG</h2>
+    <div class="products">
+        <div class="card">
+            <h3>Bright Gas 5,5 Kg</h3>
+            <p>
+                Produk LPG non-subsidi dalam ukuran 5,5 kg
+                untuk memenuhi kebutuhan memasak rumah tangga.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Bright Gas 12 Kg</h3>
+            <p>
+                Produk LPG non-subsidi dalam ukuran 12 kg
+                untuk kebutuhan penggunaan LPG dengan kapasitas
+                lebih besar.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section features" id="fitur">
+    <h2>Fitur LPG Finder</h2>
+    <ul>
+        <li>Informasi produk LPG non-subsidi.</li>
+        <li>Pencarian lokasi agen LPG terdekat.</li>
+        <li>Informasi lokasi agen melalui Google Maps.</li>
+        <li>Layanan chatbot melalui WhatsApp.</li>
+        <li>Pemesanan LPG melalui chatbot.</li>
+        <li>Pengelolaan data pesanan melalui sistem admin.</li>
+    </ul>
+</section>
+
+<section class="section contact" id="kontak">
+    <h2>Informasi Proyek</h2>
+    <p>
+        LPG Finder merupakan proyek pengembangan sistem informasi
+        berbasis website dan chatbot.
+    </p>
+    <p>
+        Website ini merupakan proyek independen dan bukan
+        situs resmi Pertamina.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 LPG Finder. Informasi dan Pencarian LPG Non-Subsidi.</p>
+</footer>
+
+</body>
+</html>
